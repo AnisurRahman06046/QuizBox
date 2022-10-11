@@ -1,12 +1,20 @@
 import React from "react";
 import "./Quizandoptions.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const QuizandOptions = ({ q }) => {
   //   console.log(question);
-  const { question, options } = q;
-  //   console.log(question);
-  //   console.log(options);
+  const { question, options, correctAnswer } = q;
+  console.log(question);
+  console.log(options);
+  console.log(correctAnswer);
   const btnHandle = (e) => {
+    if (correctAnswer === e) {
+      toast.success("Right answer", { position: "top-center" });
+    } else {
+      toast.error("Wrong answer", { position: "top-center" });
+    }
     console.log(e);
   };
 
@@ -33,6 +41,7 @@ const QuizandOptions = ({ q }) => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
