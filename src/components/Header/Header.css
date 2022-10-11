@@ -1,0 +1,26 @@
+.header{
+    background-color: lightgray;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    margin-left: 250px;
+    font-size: 23px;
+}
+.nav-items {
+ /* border: 1px solid red; */
+ margin-right: 250px;
+ 
+}
+.nav-items a {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav-items a:hover{
+    color: rgb(194, 194, 71);
+}
