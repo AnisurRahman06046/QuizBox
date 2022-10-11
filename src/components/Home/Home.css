@@ -1,0 +1,25 @@
+.home-banner{
+    background-image: url('./../../Utilities/bg.jpg');
+    
+    height: 220px;
+    padding: 5px;
+}
+.home-banner h2{
+    color: orangered;
+    margin-top: 30px;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.home-banner p{
+    color:cornsilk;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 18px;
+    
+    
+}
+.para-text{
+    font-weight: bold;
+    color: lightcoral;
+}
