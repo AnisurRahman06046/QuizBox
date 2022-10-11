@@ -3,11 +3,17 @@ import "./Topic.css";
 
 const Topic = ({ topic }) => {
   console.log(topic);
-  const { name, logo, totol } = topic;
+  const { name, logo, total } = topic;
   return (
-    <div>
-      <img src={logo} alt="" />
-      <h4>{name}</h4>
+    <div className="topics-card-container">
+      <div className="topic-logo">
+        <img src={logo} alt="" />
+      </div>
+      <div className="topic-info">
+        <h3>{name}</h3>
+        <p>Total Quiz :{total} </p>
+        <button>Start Quiz</button>
+      </div>
     </div>
   );
 };

@@ -19,7 +19,7 @@ const Home = () => {
             So,are you ready to take challenges ?
           </span>
         </p>
-        <div>
+        <div className="topics">
           {topicsData.map((topic) => (
             <Topic topic={topic}></Topic>
           ))}

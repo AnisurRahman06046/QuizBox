@@ -3,6 +3,7 @@
     
     height: 220px;
     padding: 5px;
+    
 }
 .home-banner h2{
     color: orangered;
@@ -22,4 +23,8 @@
 .para-text{
     font-weight: bold;
     color: lightcoral;
+}
+.topics{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
