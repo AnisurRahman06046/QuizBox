@@ -4,12 +4,13 @@ import QuizandOptions from "../QuizandOptions/QuizandOptions";
 
 const Quiz = () => {
   const quizData = useLoaderData();
+  console.log(quizData);
   const { questions } = quizData.data;
-  console.log(questions);
+  //   console.log(questions);
 
   return (
     <div>
-      <h1>here are the quizes</h1>
+      <h1>Topic : {quizData.data.name}</h1>
       {questions.map((q) => (
         <QuizandOptions q={q}></QuizandOptions>
       ))}
