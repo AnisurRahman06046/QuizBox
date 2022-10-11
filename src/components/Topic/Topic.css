@@ -40,7 +40,10 @@
     background-color:rgb(204, 204, 12);
     border: none;
     border-radius: 10px;
+    
 }
+.topic-info a{text-decoration: none;
+font-weight: bold;}
 .topic-info button:hover{
     background-color: orange;
 }

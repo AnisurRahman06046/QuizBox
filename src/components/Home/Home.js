@@ -21,7 +21,7 @@ const Home = () => {
         </p>
         <div className="topics">
           {topicsData.map((topic) => (
-            <Topic topic={topic}></Topic>
+            <Topic key={topic.id} topic={topic}></Topic>
           ))}
         </div>
       </div>
