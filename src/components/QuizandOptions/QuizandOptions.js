@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Quizandoptions.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 const QuizandOptions = ({ q }) => {
   //   console.log(question);
@@ -17,11 +19,18 @@ const QuizandOptions = ({ q }) => {
     }
     console.log(e);
   };
+  const [hide, setHide] = useState(false);
+  const iconHandler = () => {
+    setHide(!hide);
+  };
 
   return (
     <div>
       <div className="quiz-container">
-        <h3>{question.replace(/(<([^>]+)>)/gi, "")}</h3>
+        <div className="quiz-title">
+          <h3>{question.replace(/(<([^>]+)>)/gi, "")}</h3>
+          <FontAwesomeIcon onClick={iconHandler} icon={faEye}></FontAwesomeIcon>
+        </div>
         <div className="quiz-answer-option">
           <div onClick={() => btnHandle(options[0])} className="single-option">
             <input type="radio" name="option1" value={options[0]} id="" />
@@ -40,6 +49,7 @@ const QuizandOptions = ({ q }) => {
             {options[3]}
           </div>
         </div>
+        <div>{hide ? `Correct answer : ${correctAnswer}` : null}</div>
       </div>
       <ToastContainer />
     </div>

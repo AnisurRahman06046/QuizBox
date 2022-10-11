@@ -26,3 +26,11 @@
     /* width: 800px; */
     background-color: rgb(245, 242, 243);
 }
+.quiz-title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.correct-ans{
+    display:none;
+}
