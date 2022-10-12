@@ -21,7 +21,7 @@ const Statistics = () => {
       <h1>Quiz Statistics</h1>
       <div>
         <LineChart
-          width={300}
+          width={480}
           height={300}
           data={data}
           margin={{
