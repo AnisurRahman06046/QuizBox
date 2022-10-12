@@ -1,3 +1,16 @@
+# Project name : QuizBox
+
+## Technologies used: javascript,reactjs,vanila css
+
+### Description :
+
+This is bascially a quiz website where participants can test their knowledge.This site is built using reactjs , javascript and for styling vanila css .
+
+Features:
+User can see or hide the correct answer clicking on the eye icon
+for each right or wrong answer the user will get a pop up message which is implemented by using toast.
+there is a route named statistics where user can see the total quiz regarding each topic in a chart.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
