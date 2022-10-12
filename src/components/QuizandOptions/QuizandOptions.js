@@ -6,11 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 const QuizandOptions = ({ q }) => {
-  //   console.log(question);
   const { question, options, correctAnswer } = q;
-  console.log(question);
-  console.log(options);
-  console.log(correctAnswer);
+
   const btnHandle = (e) => {
     if (correctAnswer === e) {
       toast.success("Right answer", { position: "top-center" });

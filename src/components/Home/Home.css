@@ -42,17 +42,16 @@
     }
     .home-banner h2{
         color: orangered;
-        /* margin-top: 30px; */
-        /* font-size: 32px; */
+        
         margin-bottom: 10px;
     }
     .home-banner p{
         color:cornsilk;
-        /* width: 500px; */
+        
         margin: 0 auto;
         padding-top: 10px;
         font-weight: bold;
-        /* font-size: 1px; */
+        
         
         
     }

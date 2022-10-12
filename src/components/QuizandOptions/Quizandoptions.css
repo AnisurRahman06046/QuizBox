@@ -1,5 +1,5 @@
 .quiz-answer-option{
-    /* border: 2px solid red; */
+    
     
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -7,23 +7,21 @@
     padding: 5px;
 }
 .single-option{
-    /* border: 2px solid orange; */
+    
     background-color: rgb(241, 246, 250);
     
     
 }
-/* .single-option:hover{
-    background-color: rgb(238, 202, 189);
-} */
+
 .quiz-container{
-    /* border: 2px solid blue; */
+    
     margin-right: 150px;
     margin-left: 150px;
     margin-bottom: 30px;
     border-radius: 20px;
     height: auto;
     padding: 20px;
-    /* width: 800px; */
+    
     background-color: rgb(245, 242, 243);
 }
 .quiz-title{
