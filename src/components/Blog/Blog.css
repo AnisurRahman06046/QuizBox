@@ -1,0 +1,6 @@
+.blog p{
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid red;
+    text-align: center;
+}
