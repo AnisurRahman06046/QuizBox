@@ -3,8 +3,9 @@ import "./Error.css";
 
 const Error = () => {
   return (
-    <div>
-      <p>404 not found</p>
+    <div className="error-msg-container">
+      <h1>Opps!</h1>
+      <p>404 Page not found</p>
     </div>
   );
 };

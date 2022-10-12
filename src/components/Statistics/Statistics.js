@@ -10,7 +10,6 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
 } from "recharts";
 const Statistics = () => {
   const datas = useLoaderData();
@@ -18,11 +17,11 @@ const Statistics = () => {
   console.log(data);
 
   return (
-    <div>
+    <div className="chart">
       <h1>Quiz Statistics</h1>
       <div>
         <LineChart
-          width={800}
+          width={300}
           height={300}
           data={data}
           margin={{

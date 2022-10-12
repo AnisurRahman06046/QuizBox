@@ -1,0 +1,14 @@
+
+@media screen  and (min-width:668px) and (max-width:4000px) {
+    .error-msg-container{
+        
+        margin-top: 300px;
+    }
+}
+
+@media screen  and (min-width:375px) and (max-width:667px){
+    .error-msg-container{
+         
+        margin-top: 150px;
+    }
+}

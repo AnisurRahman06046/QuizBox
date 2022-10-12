@@ -1,5 +1,21 @@
-.statistics{
-    margin-left: 250px;
-    margin-top: 30px ;
-    /* margin: 0 auto; */
+
+/* responsiveness for desktop devices */
+@media screen and (min-width:668px) and (max-width:4000px) {
+    .statistics{
+        margin-left: 250px;
+        margin-top: 30px ;
+        
+    }
+}
+/* responsiveness for mobile devices */
+@media screen and   (min-width:375px) and (max-width:667px) {
+    .statistics{
+        margin-left: 250px;
+        margin-top: 30px ;
+        
+    }
+    .chart {
+
+        /* width: 500px; */
+    }
 }

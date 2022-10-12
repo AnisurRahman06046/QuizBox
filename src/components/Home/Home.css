@@ -1,6 +1,6 @@
 
-
-@media screen and (min-width:576px) and (max-width:4000px) {
+/* responsiveness for desktop devices */
+@media screen and (min-width:668px) and (max-width:4000px) {
     .home-banner{
         background-image: url('./../../Utilities/bg.jpg');
         
@@ -32,6 +32,7 @@
         grid-template-columns: repeat(2,1fr);
     }
 }
+/* responsiveness for mobile devices */
 @media screen and (min-width:375px) and (max-width:667px) {
     .home-banner{
         background-image: url('./../../Utilities/bg.jpg');

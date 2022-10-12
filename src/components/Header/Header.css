@@ -1,6 +1,6 @@
 
 /* desktop device responsive  */
-@media screen and (min-width:576px) and (max-width:4000px) {
+@media screen and (min-width:668px) and (max-width:4000px) {
     .header{
         background-color: lightgray;
         position: sticky;
@@ -28,7 +28,7 @@
         color: rgb(194, 194, 71);
     }
 }
-
+/* responsiveness for mobile devices */
 @media screen and (min-width:375px) and (max-width:667px) {
     .header{
         background-color: lightgray;
