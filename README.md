@@ -2,7 +2,11 @@
 
 ## Technologies used: javascript,reactjs,vanila css
 
-### Description :
+### Live Site Link:
+
+- https://curious-alpaca-9d0109.netlify.app
+
+#### Description :
 
 This is bascially a quiz website where participants can test their knowledge.This site is built using reactjs , javascript and for styling vanila css .
 
