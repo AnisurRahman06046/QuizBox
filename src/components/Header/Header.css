@@ -24,3 +24,9 @@
 .nav-items a:hover{
     color: rgb(194, 194, 71);
 }
+
+@media screen and (min-width:340px) and (max-width:750px) {
+    *{
+        margin: 0 auto;
+    }
+}
